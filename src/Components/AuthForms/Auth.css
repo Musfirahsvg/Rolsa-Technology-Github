@@ -1,0 +1,152 @@
+/* .auth-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+
+
+    >input {
+        padding: 16px;
+        border-radius: 4px;
+    }
+
+    & button[type=submit]{
+        color: white;
+        background-color: var(--primary-color);
+        border: none;
+        border-radius: 4px;
+        font-weight: 700;
+        font-size: 24px;
+        padding: 8px 16px;
+    }
+}
+
+.auth-options-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.auth-swap-container{
+    display: flex;
+    flex-direction:column;
+    align-items: flex-end;
+}
+
+.auth-swap-btn{
+    background: none;
+    padding: 0;
+    color: var(--primary-color);
+    font-weight: 800;
+    border: none;
+    cursor: pointer;
+} 
+
+.error {
+    color: red;
+    font-weight: bold;
+} */
+
+
+
+
+.auth-container {
+    display: flex;
+    height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.auth-hero-column {
+    flex: 1;
+    background-image: url('../../Assets/Image 4.png'); /* Image 1 background */
+    background-size: cover;
+    background-position: center;
+    padding: 50px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 16px;
+}
+
+.auth-form-column {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px;
+    background-color: green;
+    gap: 16px;
+}
+
+.auth-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.auth-form input {
+    padding: 14px;
+    font-size: 16px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+.auth-form button[type="submit"] {
+    padding: 12px;
+    font-size: 18px;
+    background-color: #00A86B; /* Green tone to match image */
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.auth-links {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+}
+
+
+.auth-links button {
+    background: none;
+    border: none;
+    color: #00A86B;
+    cursor: pointer;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.auth-options-row{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+.error {
+    color: red;
+    font-weight: bold;
+    margin-top: -10px;
+}
+
+
+
+
+
+
+
+/* .auth-swap-btn{
+    margin-left: 60px;
+
+} */
+
+/* .auth-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 600px;
+    font-size: 14px;
+     margin-top: 10px;
+} */

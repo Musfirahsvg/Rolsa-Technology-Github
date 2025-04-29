@@ -1,0 +1,91 @@
+.booking-container {
+    background-color: green;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  .booking-title {
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: underline;
+  }
+  
+  .booking-sections {
+    display: flex;
+    justify-content: space-around;
+    color: black;
+  }
+  
+  .consultation, .installations{
+    background-color: #0078d4;
+    padding: 20px;
+    border-radius: 8px;
+    width: 40%;
+    color: white;
+  }
+
+  .consultation h3{
+    color: black;
+  }
+
+.dark-mode .consultation h3,
+.dark-mode .installations p,
+.dark-mode .installations{
+    color: white;
+  }
+
+  /* White Break Line */
+.break-line {
+  width: 2px;
+  height: 400px;
+  background: white;
+  margin: 0 20px;
+  margin-left: 1%;
+}
+  
+  .installations {
+    background-color: green;
+    text-align: left;
+    color: black;
+    background-color: #0078d4;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+  button {
+    background-color: orange;
+    color: black;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 4px;
+    font-weight: bold;
+  }
+  
+  button:hover {
+    background-color: darkorange;
+  }
+
+.section1{
+  background-color: #2196F3;
+  margin-top: 20px;
+  }
+
+.dark-mode .section1 h2,
+.dark-mode .booking-title{
+  color: white;
+}

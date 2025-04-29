@@ -1,0 +1,64 @@
+/* AboutUs.css */
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: green; /* Green background as seen in the image */
+    color: black; /* Black text for contrast */
+}
+
+/* Container for sections */
+.container {
+    width: 100%; /* Full width for the container */
+    background-color: lightblue;
+    padding-top: 20px;
+}
+
+/* Section styles */
+.section {
+    background-color: lightblue; /* Semi-transparent background for sections */
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 20px;
+    width: 100%; /* Full width for sections */
+}
+
+/* Headings */
+h2 {
+    font-size: 24px; /* Larger size for headings */
+    color: black; /* Black color for headings */
+    margin-bottom: 10px;
+    text-decoration: underline;
+    text-align: center;
+}
+
+/* Paragraph styles */
+p {
+    line-height: 1.6; /* Improved readability */
+    margin-bottom: 10px;
+}
+
+/* Image styles */
+.images {
+    display: flex; /* Use flexbox for centering */
+    justify-content: center; /* Center images */
+    margin-top: 10px;
+}
+
+.images img {
+    width: 48%; /* Two images side by side */
+    border-radius: 5px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .images {
+        flex-direction: column; /* Stack images on smaller screens */
+        align-items: center; /* Center images */
+    }
+
+    .images img {
+        width: 90%; /* Full width for images on small screens */
+        margin-bottom: 10px;
+    }
+}

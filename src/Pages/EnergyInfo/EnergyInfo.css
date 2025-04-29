@@ -1,0 +1,33 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .section {
+    margin-bottom: 30px;
+    background-color:#2196F3 ;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    margin-bottom: 15px;
+    line-height: 1.6;
+  }
+  
+  .images {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .images img {
+    width: 45%; /* Adjust width as necessary */
+    border-radius: 5px;
+  } 

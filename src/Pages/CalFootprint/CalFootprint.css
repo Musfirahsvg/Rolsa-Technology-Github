@@ -1,0 +1,105 @@
+.header-section{
+  margin-top: 105px;
+}
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 70px;
+    width: auto;
+  }
+  
+  .question-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 15px;
+    color: black;
+  }
+  
+  
+  .dark-mode .question-container,
+  .dark-mode .container h2,
+  .dark-mode .submit-button{
+    color:white;
+  }
+  
+  .question-container p {
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-bottom: 8px;
+    text-align: center; /* Keeps text centered */
+  }
+  
+  .button-group {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .button-group button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+  }
+  
+  /* Default button styling */
+  .yes-button {
+    background: #f2f2f2;
+    color: black;
+  }
+  
+  .no-button {
+    background: #f2f2f2;
+    color: black;
+  }
+  
+  /* Button styles when selected */
+  .yes-button.selected,
+  .no-button.selected {
+    background: #add8e6 !important; /* Light blue */
+    color: black;
+  }
+  
+  /* Submit button */
+  .submit-button {
+    width: 100%;
+    margin-top: 15px;
+    padding: 12px;
+    font-size: 1rem;
+    background: #007bff;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .submit-button:hover {
+    background: #0056b3;
+  }
+  
+  /* Error message */
+  .error-message {
+    color: red;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  /* Image styling */
+  .result-image {
+    width: 100%;
+    max-width: 250px;
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  }
+  

@@ -1,0 +1,16 @@
+h1{
+    text-align: center;
+    color: black;
+}
+h2{
+    text-align: center;
+    color: black;
+}
+.large-font, .auth-form-column {
+    font-size: 1.2em; /* Increases font size */
+}
+
+.dark-mode h1,
+.dark-mode h2{
+    color: white;
+}
