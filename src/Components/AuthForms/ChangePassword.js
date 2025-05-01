@@ -117,7 +117,7 @@ export default function ChangePasswordForm({ toLogin, toRegister }) {
             return;
         }
 
-        axios.post("http://localhost:8001/auth/change-password", {
+        axios.post("https://rolsa-technology-backend.onrender.com/auth/change-password", {
             email,
             old_password: oldPassword,
             new_password: newPassword
