@@ -10,7 +10,7 @@ export default function RegisterForm({ toggle, toLogin }) {
     const [error, setError] = useState("");
     function registerUser(event) {
         event.preventDefault();
-        const ENDPOINT_URL = "http://localhost:8001/auth/register";
+        const ENDPOINT_URL = "https://rolsa-technology-backend.onrender.com/auth/register";
     
         // Include username in the form data if provided
         const FORM_DATA = {
