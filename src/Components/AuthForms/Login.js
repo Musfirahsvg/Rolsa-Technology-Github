@@ -258,7 +258,7 @@ export default function LoginForm({ toRegister, toChangePassword }) {
 
     function handleLogin(event) {
         event.preventDefault();
-        axios.post("http://localhost:8001/auth/login", { email, password })
+        axios.post("https://rolsa-technology-backend.onrender.com/auth/login", { email, password })
             .then(res => {
                 login(res.data); // ✅ store user in context
                 navigate("/cal-footprint"); // ✅ redirect to /profile
